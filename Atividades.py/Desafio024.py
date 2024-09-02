@@ -1,0 +1,16 @@
+print ('-'*12, 'Primeira opção', '-'*12)
+cid = input ('Escreva o nome da sua cidade: ')
+cida = cid.upper()
+cidade = cida.split()
+if 'SANTO' in cidade[0]: 
+    print ('Sua cidade começa com Santo')
+else:
+    print ('Sua cidade não começa com santo')
+print ('-'*12, 'Segunda opção', '-'*12)
+cid = input ('Escreva o nome da sua cidade: ')
+cida = cid.upper() 
+cidade = cida.split()
+print ('Sua cidade começa com Santo', 'SANTO' in cidade[0])
+print ('-'*12, 'Terceira opção', '-'*12)
+cid = input ('Escreva o nome da  sua cidade: ').strip()
+print (cid[:5].upper() == 'SANTO')

@@ -1,0 +1,6 @@
+print ('-'*12, 'REAJUSTADOR DE SALÁRIOS','-'*12)
+fun = input('Digite o nome do funcionário: ')
+sa = int (input('digite o salário: '))
+por = int (input('Digite o a porcentagem:'))
+res = sa+(sa*(por/100))
+print('Salário de {} reajustado de {} para {}'.format(fun,sa,res))
