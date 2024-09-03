@@ -19,3 +19,8 @@ print (max(c))
 print (min(c))
 print (f'Quantas vezes aparece o número 6? aparece : {c.count(6)} vezes')
 print (f'Qual posição está o 4? aparece na posição {c.index(4)} ')
+
+#tuplas pode ter dado de mais de um tipo, ex:
+pessoa = 'gustavo', 15, 'sla', 99.88
+#Unico mudança que se pode fazer com uma tupla é apenas apagar ela toda assim:
+del(pessoa)
