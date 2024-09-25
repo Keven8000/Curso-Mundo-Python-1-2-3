@@ -41,8 +41,6 @@ for p in range(0, cadastros):
         pesos_leves.append(dados[1])
     dados.clear()
 
-
-
 print(f'Você cadastrou {cadastros} pessoas')
 print(f'As pessoas cadastradas foram {pessoas}')
 print(f'O maior peso foi {pesos_pesados} de {pessoas_pesadas}')
