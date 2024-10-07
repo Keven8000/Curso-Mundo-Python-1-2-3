@@ -21,7 +21,7 @@ pessoa['carteira'] = carteira
 if carteira != 0:
     pessoa['contratação'] = contratado
     pessoa['salário'] = int(input('Salário: '))
-
+ 
 print(f'{pessoa['nome']}\n{pessoa['idade']} anos\nNúmero da CTPS: {pessoa['carteira']}')
 if carteira != 0:
     print(f'Ano de contratação: {pessoa['contratação']}\nSalário: {pessoa['salário']}')

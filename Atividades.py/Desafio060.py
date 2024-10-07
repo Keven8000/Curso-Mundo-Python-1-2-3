@@ -6,3 +6,4 @@ while fat != 1:
     res = n * fat
     n = res
     print(res)
+    

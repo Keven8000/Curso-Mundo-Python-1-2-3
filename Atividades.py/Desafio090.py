@@ -11,10 +11,6 @@ for c in range(0, 3):
         dados['situação'] = 'reprovado'
     resultados.append(dados.copy())
 
-
-print(dados)
-print(resultados)
-
 for e in resultados:
         print(e)
 
