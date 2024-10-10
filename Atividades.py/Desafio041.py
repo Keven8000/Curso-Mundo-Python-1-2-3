@@ -7,16 +7,14 @@ nascimento = (input('Digite a data de nascimento do atleta baseado no seguinte e
 dias = date.today().day -  datetime.strptime(nascimento, '%d/%m/%Y').day
 mes = date.today().month -  datetime.strptime(nascimento, '%d/%m/%Y').month 
 ano = date.today().year -  datetime.strptime(nascimento, '%d/%m/%Y').year
-mess = int(mes)
-
 if mes > 0: 
     idade = ano 
 elif mes < 0: 
     idade = ano - 1
 elif mes == 0:
-    if dias <= 0:
+    if dias >= 0:
         idade = ano
-    elif dias > 0:
+    elif dias < 0:
         idade = ano - 1
 print('O atleta tem {} anos'.format(idade))
 
