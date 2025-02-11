@@ -6,7 +6,7 @@ class cachorro:
         self.cor = cor
         self.acordado = acordado
 '''
-#__del__ = métpdp destrutor // executado quando uma instância(objeto) é destruída, menos usado
+#__del__ = método destrutor // executado quando uma instância(objeto) é destruída, menos usado
 # em pytho, pois ele tem um coletor lixo que lida com o gerenciamento de memória automaticamente.
 '''EX:
 class cachorro:
